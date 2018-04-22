@@ -25,6 +25,9 @@ savefig("plots/ulam_spiral_4.pdf")
 savefig("plots/ulam_spiral_4.png")
 
 point_spiral(fig_n=5, markersize=1, color="black", width=200)
+plot_quadratic(; fig_n=5, width=200);
+plot_quadratic(4, 2, 41; fig_n=5, width=200, color_prime="green");
+
 savefig("plots/ulam_spiral_5.pdf")
 savefig("plots/ulam_spiral_5.png")
 

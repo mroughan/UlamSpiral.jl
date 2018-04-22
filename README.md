@@ -49,6 +49,8 @@ and a couple of utilities:
 ![Example 5](/plots/ulam_spiral_4.png)
 
     julia> point_spiral(fig_n=5, markersize=1, color="black", width=200)
+    julia> plot_quadratic(; fig_n=5, width=200);
+    julia> plot_quadratic(4, 2, 41; fig_n=5, width=200, color_prime="green");
 
 ![Example 6](/plots/ulam_spiral_5.png)
 
