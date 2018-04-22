@@ -38,6 +38,23 @@ and a couple of utilities:
 
     julia> text_spiral(fig_n=2, color_comp="white", color_prime="black", width=20, fontsize=10)
 
-![Example 3](/plots/ulam_spiral_1.png)
+![Example 3](/plots/ulam_spiral_2.png)
+
+    julia> point_spiral()
+
+![Example 4](/plots/ulam_spiral_3.png)
+
+    julia> point_spiral( 1000; fig_n=4, markersize=10)
+
+![Example 5](/plots/ulam_spiral_4.png)
+
+    julia> point_spiral(fig_n=5, markersize=1, color="black", width=200)
+
+![Example 6](/plots/ulam_spiral_5.png)
+
+    julia> text_spiral(fig_n=6, color_comp="white", color_prime="black", width=20, fontsize=10)
+    julia> point_spiral(fig_n=6, markersize=3, marker="s", color="green", width=20, clear="off")
+
+![Example 7](/plots/ulam_spiral_6.png)
 
 
