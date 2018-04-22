@@ -22,8 +22,8 @@ The code here will produce such a spiral. There are two main routines:
 
 and a couple of utilities:
 
-+ position:       used internally to fget (x,y) position for a point on the spiral
-+ plot_quadratic: plot points along a quadratic function, as these appear asymptotically
++ `position`:       used internally to fget (x,y) position for a point on the spiral
++ `plot_quadratic`: plot points along a quadratic function, as these appear asymptotically
                       linear in the spiral 
 
 ## Examples:
