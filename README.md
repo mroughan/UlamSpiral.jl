@@ -9,21 +9,21 @@ highlighted primes.
 
 There's a lot more written about this online
 
-   + https://en.wikipedia.org/wiki/Ulam_spiral
-   + https://rosettacode.org/wiki/Ulam_spiral_(for_primes)
-   + https://www.r-bloggers.com/the-ulam-spiral-euler-problem-28/
++ https://en.wikipedia.org/wiki/Ulam_spiral
++ https://rosettacode.org/wiki/Ulam_spiral_(for_primes)
++ https://www.r-bloggers.com/the-ulam-spiral-euler-problem-28/
 
 so I won't try to duplicate it all here.
 
 The code here will produce such a spiral. There are two main routines:
 
-    + text_spiral:  plot the numbers themselves in the spiral (for small grids)
-    + point_spiral: plot the points corresponding to the primes (for larger grids)
++ `text_spiral`:  plot the numbers themselves in the spiral (for small grids)
++ `point_spiral`: plot the points corresponding to the primes (for larger grids)
 
 and a couple of utilities:
 
-    + position:       used internally to fget (x,y) position for a point on the spiral
-    + plot_quadratic: plot points along a quadratic function, as these appear asymptotically
++ position:       used internally to fget (x,y) position for a point on the spiral
++ plot_quadratic: plot points along a quadratic function, as these appear asymptotically
                       linear in the spiral 
 
 ## Examples:
