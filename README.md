@@ -4,6 +4,7 @@ The Ulam Spiral, named after Stanislaw Ulam, is a simple mapping of
 the non-negative integers to a square lattice, spiralling out from the
 center, and highlighting the prime numbers.
 
+
 The interesting feature is the apparent patterns that appear in the
 highlighted primes.
 
