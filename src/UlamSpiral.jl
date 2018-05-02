@@ -7,7 +7,7 @@ import Base: position
  
 export position, text_spiral, point_spiral, plot_quadratic
  
-"""
+""" 
     position(n[, start_n=1])
 
 Compute (x,y) location in the lattice spiral of the integer n, assuming the spiral
