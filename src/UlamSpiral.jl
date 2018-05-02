@@ -1,7 +1,7 @@
 "A module to plot Ulam spirals"
 module UlamSpiral
 
-using PyPlot
+import PyPlot
 using Primes
 import Base: position
  
