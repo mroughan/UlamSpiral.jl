@@ -16,7 +16,7 @@ end
 end
 
 # 
-# a present these tests are a bit trivial, because most of this
+# at present these tests are a bit trivial, because most of this
 # is about plotting. Perhaps can use
 #     https://github.com/JuliaPlots/VisualRegressionTests.jl
 # to do this, but perhaps is overkill for a niche package like this.
