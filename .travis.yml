@@ -8,6 +8,8 @@ julia:
   - nightly
 notifications:
   email: false
+env:
+  - PYTHON=""
 git:
   depth: 99999999
 
